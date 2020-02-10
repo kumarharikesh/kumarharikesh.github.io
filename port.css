@@ -204,17 +204,17 @@ section,
 footer a.top {
   background: transparent url(img/social.png) 0 -217px;
   width: 118px;
-  height: 80px;
+  height: 70px;
   display: block;
   position: absolute;
   left: 50%;
   margin-left: -59px;
   /* bottom: -40px; */
-  bottom: 60px;
+  bottom: 70px;
   text-indent: -9999px;
 }
 footer a.top:hover {
-  bottom: 65px;
+  bottom: 75px;
 }
 footer a:hover {
   color: #333333;
@@ -265,7 +265,6 @@ footer ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  /* margin-left: 100px; */
 }
 ul[class="social"] li,
 ul[id="nav-header"] li,
@@ -278,15 +277,13 @@ footer ul li a {
 }
 
 footer .right {
-  /* display: none; */
   float: right !important;
 }
 footer .row .right a.facebook {
   background: transparent url(img/social.png) 0 -545px;
-  /* background-color: aqua; */
   width: 51px;
   height: 53px;
-  border-radius: 30%;
+  border-radius: 50%;
   display: block;
   position: absolute;
   right: 20%;
@@ -295,10 +292,9 @@ footer .row .right a.facebook {
 }
 footer .row .right a.twitter {
   background: transparent url(img/social.png) 0 -597px;
-  /* background-color: aqua; */
   width: 51px;
   height: 52px;
-  border-radius: 30%;
+  border-radius: 50%;
   display: block;
   position: absolute;
   right: 14%;
@@ -307,10 +303,9 @@ footer .row .right a.twitter {
 }
 footer .row .right a.linkedin {
   background: transparent url(img/social.png) 0 -699px;
-  /* background-color: aqua; */
   width: 51px;
   height: 53px;
-  border-radius: 30%;
+  border-radius: 50%;
   display: block;
   position: absolute;
   right: 8%;
@@ -319,10 +314,9 @@ footer .row .right a.linkedin {
 }
 footer .row .right a.insta {
   background: transparent url(img/inta02.png)-7px  -73px;
-  /* background-color: aqua; */
   width: 51px;
   height: 53px;
-  border-radius: 30%;
+  border-radius: 50%;
   display: block;
   position: absolute;
   right: 2%;
@@ -345,22 +339,6 @@ footer .row .right a:hover {
   margin: 0px;
 }
 
-.slide-container {
-background: linear-gradient(to right,#fff,#fff, #ffafbd,#fff, #fff);
-height: 50px;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}
-.slide-container button,
-.slide-container button a {
-text-decoration: none;
-cursor: pointer;
-background: skyblue;
-}
-
 pre {
 display: block;
 padding: 9.5px;
@@ -379,6 +357,23 @@ overflow: auto;
 b {
 font-weight: 700;
 }
+
+.slide-container {
+background: linear-gradient(to right,#fff,#fff, #ffafbd,#fff, #fff);
+height: 50px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.slide-container button,
+.slide-container button a {
+text-decoration: none;
+cursor: pointer;
+background: skyblue;
+}
+
 
 /***/
 /*************************************************  Pixel-2.0  ****************************************/

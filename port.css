@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial,Sans-serif;
+  background-color: transparent;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+}
+html {
+  background: #ffffff;
+  font-size: 70%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+::selection {
+  background: #333333;
+  color: #fff;
+}
+
+element.style {
+  opacity: 1;
+  top: 0px;
+}
+
+/* body div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: bottom;
+  background: transparent;
+} */
+header{
+  background: #111111;
+  /* color: #f5f5f5; */
+  padding: 0px 32px;
+  font-size: 1.6rem;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial,Sans-serif;
+  /* text-align: center; */
+} 
+/* header div, */
+header div a,
+header nav li a {
+  color: #f5f5f5;
+  margin-right: 35px;
+}
+.col-12{
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#logo {
+  margin-left: 30px;
+  font-size: 55px;
+  font-weight: 600;
+  font-family: cursive;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+#logodiv {
+  background-color: rgb(29, 41, 41);
+  cursor: pointer;
+  border-radius:80% 10%;
+  border: 1px solid white;
+}
+#logodiv:hover {
+  background-color: darkslategrey;
+}
+
+
+/* header a.logo {
+  background: transparent url(img/logo/h1.png) -200px;
+  width: 51px;
+  height: 53px;
+  display: block;
+  position: absolute;
+  left: 4%;
+  top: 18px;
+  text-indent: -9999px;
+} */
+header li.hackerrank a{
+  background: transparent url(img/social.png)-63.5px -185px;
+  /* border: 1px solid white; */
+  width: 34px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 28px;
+  text-indent: -9999px;
+}
+header li.facebook a {
+  background: transparent url(img/social.png)3px -186px;
+  /* border: 1px solid white; */
+  width: 35px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 28px;
+  text-indent: -9999px;
+}
+header li.linkedin a{
+  background: transparent url(img/social.png)-95px -185px;
+  /* border: 1px solid white; */
+  width: 35px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  right: 15%;
+  top: 28px;
+  text-indent: -9999px;
+}
+header li.twitter a{
+  background: transparent url(img/social.png)-30px -185px;
+  /* border: 1px solid white; */
+  width: 35px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  right: 20%;
+  top: 28px;
+  text-indent: -9999px;
+}
+header li.git a{
+  background: transparent url(img/git12.png)-3px -4px;
+  /* border: 1px solid white; */
+  width: 35px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  right: 25%;
+  top: 28px;
+  text-indent: -9999px;
+}
+
+header nav{
+  margin-left: 200px;
+}
+header ul li a:hover {
+  opacity: .3;
+}
+
+footer {
+  background: #f5f5f5;
+  color: #666666;
+  /* display: block; */
+  height: 50px;
+  padding: 40px 5% 0 5%;
+  /* font-size: 16px; */
+  font-size: 1.5rem;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  clear: both;
+}
+
+#footer {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* border: 0; */
+  /* outline: 0; */
+  /* font-size: 100%; */
+  bottom: 0;
+  position: relative;
+  clear: both;
+  vertical-align: bottom;
+}
+footer .left a {
+  float: left;
+  text-decoration: none;
+}
+footer .left {
+  float: none !important;
+}
+
+footer a {
+  color: #666666;
+}
+header a,
+.animate-color,
+footer a {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.clearfix,
+section,
+.row {
+  *zoom: 1;
+}
+footer a.top {
+  background: transparent url(img/social.png) 0 -217px;
+  width: 118px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -59px;
+  /* bottom: -40px; */
+  bottom: 60px;
+  text-indent: -9999px;
+}
+footer a.top:hover {
+  bottom: 65px;
+}
+footer a:hover {
+  color: #333333;
+}
+.top,
+#logodiv,
+.insta,
+.twitter,
+.facebook,
+.linkedin,
+header nav li a { 
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.row:after {
+  clear: both;
+}
+
+/* .clearfix:before,
+section:before,
+.row:before,
+.clearfix:after,
+section:after, */
+.row:after {
+  display: table;
+  content: "";
+}
+/* .clearfix:before,
+section:before,
+.row:before,
+.clearfix:after,
+section:after, */
+.row:after {
+  display: table;
+  content: "";
+}
+ul[class="social"],
+ul[id="nav-header"],
+footer ul {
+  display: contents;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  /* margin-left: 100px; */
+}
+ul[class="social"] li,
+ul[id="nav-header"] li,
+footer ul li {
+  display: contents;
+  text-align: center;
+}
+footer ul li a {
+  margin: 10px;
+}
+
+footer .right {
+  /* display: none; */
+  float: right !important;
+}
+footer .row .right a.facebook {
+  background: transparent url(img/social.png) 0 -545px;
+  /* background-color: aqua; */
+  width: 51px;
+  height: 53px;
+  border-radius: 30%;
+  display: block;
+  position: absolute;
+  right: 20%;
+  bottom: 15px;
+  text-indent: -9999px;
+}
+footer .row .right a.twitter {
+  background: transparent url(img/social.png) 0 -597px;
+  /* background-color: aqua; */
+  width: 51px;
+  height: 52px;
+  border-radius: 30%;
+  display: block;
+  position: absolute;
+  right: 14%;
+  bottom: 15px;
+  text-indent: -9999px;
+}
+footer .row .right a.linkedin {
+  background: transparent url(img/social.png) 0 -699px;
+  /* background-color: aqua; */
+  width: 51px;
+  height: 53px;
+  border-radius: 30%;
+  display: block;
+  position: absolute;
+  right: 8%;
+  bottom: 15px;
+  text-indent: -9999px;
+}
+footer .row .right a.insta {
+  background: transparent url(img/inta02.png)-7px  -73px;
+  /* background-color: aqua; */
+  width: 51px;
+  height: 53px;
+  border-radius: 30%;
+  display: block;
+  position: absolute;
+  right: 2%;
+  bottom: 15px;
+  text-indent: -9999px;
+}
+
+footer .row .right a:hover {
+  bottom: 22px;
+}
+
+
+/***/
+/*************************************************  Pixel-2.0  ****************************************/
+/***/
+
+
+.big-container {
+  padding: 50px;
+  margin: 0px;
+}
+
+.slide-container {
+background-color: rgb(178, 209, 199);
+margin-left: 220px;
+width: 600px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.slide-container button,
+.slide-container button a {
+text-decoration: none;
+cursor: pointer;
+background: skyblue;
+}
+
+pre {
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+line-height: 1.42857143;
+color: #333;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #f5f5f5;
+border: 1px solid #ccc;
+border-radius: 4px;
+white-space: pre;
+overflow: auto;
+}
+b {
+font-weight: 700;
+}
+
+/***/
+/*************************************************  Pixel-2.0  ****************************************/
+/***/

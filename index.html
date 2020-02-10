@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="port.css" />
+    <title>Pixel-2.0_Debugging_Sample_Questions</title>
+  </head>
+  <body>
+    <header id="header" style="opacity: 1; top: 0px;">
+      <div class="row">
+        <div class="col-12">
+          <div id="logodiv"><a id="logo" class="logo" href="#home">H</a></div>
+          <!-- <div class="icon-nav" style="text-indent: -9999px;">side-panel</div> -->
+
+          <nav>
+            <ul id="nav-header">
+              <li class="page-item-1">
+                <a href="#about">about</a>
+              </li>
+              <li class="page-item-2">
+                <a href="#contact">contact</a>
+              </li>
+              <li class="page-item-3">
+                <a href="#portfolio">portfolio</a>
+              </li>
+              <li class="page-item-4">
+                <a href="#blog">blog</a>
+              </li>
+
+              <li style="margin-left: 30px;">
+                <ul class="social">
+                  <li class="git">
+                    <span
+                      id="email-tooltip"
+                      tooltip="Click to copy my email address to your clipboard 😀"
+                      ><a
+                        id="github"
+                        href="https://github.com/kumarharikesh"
+                        title="Checkout my git Repo"
+                        data-clipboard-text="harikeshpatel24@gmail.com"
+                        >github</a
+                      ></span
+                    >
+                  </li>
+                  <li class="twitter">
+                    <a
+                      href="https://twitter.com/Harikes49467657?s=09"
+                      title="Follow me on Twitter"
+                      target="_blank"
+                      >twitter</a
+                    >
+                  </li>
+                  <li class="linkedin">
+                    <a
+                      href="https://in.linkedin.com/in/harikesh-patel-357171191?trk=people-guest_people_search-card"
+                      title="Connect with me on Linkedin"
+                      target="_blank"
+                      >linkedin</a
+                    >
+                  </li>
+                  <li class="facebook">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100022095913969"
+                      title="Like me on Facebook"
+                      target="_blank"
+                      >facebook</a
+                    >
+                  </li>
+                  <li class="hackerrank">
+                    <a
+                      href="https://www.hackerrank.com/harikeshpatel24?hr_r=1"
+                      title="Follow me on Hackerrank"
+                      target="_blank"
+                      >hackerrank</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--/**************************************************  Pixel-2.0  ****************************************/-->
+
+    <div class="big-container">
+      <p>Advertisement:</p>
+      <br />
+
+      <div class="row">
+        <div class="col-lg-12"><h2>Technical Questions</h2></div>
+        <div class="col-lg-12"><h1>C Questions</h1></div>
+      </div>
+
+      <div class="row">
+        <ol start="1">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  struct&nbsp;{
+                  <br>&nbsp;&nbsp;int&nbsp;si;
+                  <br>&nbsp;&nbsp;double&nbsp;d;
+                  <br>&nbsp;&nbsp;float&nbsp;cp;
+                  <br>}&nbsp;s;
+                  <br>void&nbsp;main&nbsp;()&nbsp;{
+                  <br>&nbsp;&nbsp;printf&nbsp;("%d,&nbsp;%d,&nbsp;%d",&nbsp;&nbsp;sizeof&nbsp;(s.si),&nbsp;sizeof&nbsp;(s.d),&nbsp;sizeof&nbsp;(s.cp));
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>6, 10, 8</li>
+              <li>4, 8, 4</li>
+              <li>2, 4, 4</li>
+              <li>2, 8, 8</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="2">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int main () {
+                  <br>  int a, b;
+                  <br>  a = b = 4;
+                  <br>  b = a++;
+                  <br>  printf ("%d %d %d %d", a++, --b, ++a, b--);
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>5 3 7 3</li>
+              <li>5 4 5 3</li>
+              <li>6 2 6 4</li>
+              <li>Syntax Error</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="3">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int&nbsp;main&nbsp;() {
+                  <br>&nbsp;&nbsp;int&nbsp;a[4]&nbsp;=&nbsp;{&nbsp;25,&nbsp;16&nbsp;};
+                  <br>&nbsp;&nbsp;printf&nbsp;("%d&nbsp;%d",&nbsp;a[0]&nbsp;&amp;&nbsp;a[1],&nbsp;a[1]&nbsp;|&nbsp;a[2]);
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>Syntax error because of invalid operator symbol</li>
+              <li>25 16</li>
+              <li>16 16</li>
+              <li>Syntax error because of invalid array initialization</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="4">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int&nbsp;main&nbsp;() {
+                  <br>&nbsp;&nbsp;static&nbsp;int&nbsp;num&nbsp;=&nbsp;8;
+                  <br>&nbsp;&nbsp;printf&nbsp;("%d",&nbsp;num&nbsp;=&nbsp;num&nbsp;-&nbsp;2);
+                  <br>&nbsp;&nbsp;if&nbsp;(num&nbsp;!=&nbsp;0)
+                  <br>&nbsp;&nbsp;&nbsp;&nbsp;main&nbsp;();
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>8 6 4 2</li>
+              <li>Infinite output</li>
+              <li>Invalid because main function can't call itself.</li>
+              <li>6 4 2 0</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="5">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+                      How&nbsp;many&nbsp;times&nbsp;"Placement&nbsp;Question"&nbsp;will&nbsp;print.
+                      <br>int&nbsp;main()&nbsp;{
+                      <br>&nbsp;&nbsp;int&nbsp;x;
+                      <br>&nbsp;&nbsp;for(x=-1;&nbsp;x&lt;=10;&nbsp;x++) {
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;if(x&nbsp;&lt;&nbsp;5)
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;else
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;
+                      <br>&nbsp;&nbsp;&nbsp;&nbsp;printf("Placement&nbsp;Question");
+                      <br>&nbsp;&nbsp;}&nbsp;
+                      <br>&nbsp;&nbsp;return&nbsp;0;
+                      <br>}
+                  </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>Infinite Time</li>
+              <li>11 Times</li>
+              <li>0 Time</li>
+              <li>10 Times</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="6">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int&nbsp;main()&nbsp;{
+                  <br>&nbsp;&nbsp;printf("%d%d%d",&nbsp;sizeof(3.14f),&nbsp;sizeof(3.14l));
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>4160</li>
+              <li>844</li>
+              <li>3284</li>
+              <li>None of the above</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="7">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int&nbsp;main() {
+                  <br>&nbsp;&nbsp;int&nbsp;a&nbsp;=&nbsp;10,&nbsp;b&nbsp;=&nbsp;25;
+                  <br>&nbsp;&nbsp;a&nbsp;=&nbsp;b++&nbsp;+&nbsp;a++;
+                  <br>&nbsp;&nbsp;b&nbsp;=&nbsp;++b&nbsp;+&nbsp;++a;
+                  <br>&nbsp;&nbsp;printf("%d&nbsp;%d&nbsp;n",&nbsp;a,&nbsp;b);
+                  <br>}&nbsp;
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>36 64</li>
+              <li>35 62</li>
+              <li>36 63</li>
+              <li>30 28</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="row">
+        <ol start="8">
+          <li>
+            <b>Find Error/Output in follwing code:</b>
+            <pre><code><span style="color: #000000">
+  int&nbsp;main() {
+                  <br>&nbsp;&nbsp;char&nbsp;arr[7]="Network";
+                  <br>&nbsp;&nbsp;printf("%s",&nbsp;arr);
+                  <br>&nbsp;&nbsp;return&nbsp;0;&nbsp;
+                  <br>}
+              </span></code></pre>
+            <ol type="A" style="margin-left:-20px;">
+              <li>Network</li>
+              <li>N</li>
+              <li>Garbage value</li>
+              <li>Compilation error</li>
+            </ol>
+          </li>
+        </ol>
+        <div class="col-lg-6"><b>Answer : </b></div>
+      </div>
+      <hr />
+      <br />
+
+      <div class="slide-container">
+        <div class="page-btn" style="word-wrap: break-worp;">
+          <button style="background: coral;">
+            <span style="color:grey; font-size:22px; font-weight:bold;">1</span>
+          </button>
+        </div>
+        <div>
+          &nbsp; | &nbsp;<button>
+            <a href="#2" title="Go to page 2"
+              ><span style="font-size:15px;">2</span></a
+            ></button
+          >&nbsp; | &nbsp;
+        </div>
+        <div>
+          <button>
+            <a href="#3" title="Go to page 3"
+              ><span style="font-size:15px;">3</span></a
+            ></button
+          >&nbsp; | &nbsp;
+        </div>
+        <div>
+          <button>
+            <a href="#4" title="Go to page 4"
+              ><span style="font-size:15px;">4</span></a
+            ></button
+          >&nbsp; | &nbsp;
+        </div>
+        <div class="next-btn">
+          <button>
+            <a href="https://kumarharikesh.github.io" title="Go to next page"
+              >Next »</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+    </div>
+
+    <!--/**************************************************  Pixel-2.0  ****************************************/-->
+
+    <footer id="footer" role="contentinfo" style="opacity: 1; top: 0px">
+      <div class="row">
+        <div class="left">
+          <a class="transition" href="#copyright">© 2020 HarryStyle</a>
+        </div>
+
+        <nav id="nav-footer">
+          <ul>
+            <li class="page_item"><a href="#about">About</a></li>
+            <li class="page_item"><a href="#contact">Contact</a></li>
+            <li class="page_item"><a href="#portfolio">Portfolio</a></li>
+            <li class="page_item"><a href="#blog">Blog</a></li>
+          </ul>
+        </nav>
+
+        <div class="right">
+          <a
+            class="facebook"
+            href="https://www.facebook.com/profile.php?id=100022095913969"
+            >go-to-facebook</a
+          >
+        </div>
+        <div class="right">
+          <a class="twitter" href="https://twitter.com/Harikes49467657?s=09"
+            >go-to-twitter</a
+          >
+        </div>
+        <div class="right">
+          <a
+            class="linkedin"
+            href="https://in.linkedin.com/in/harikesh-patel-357171191?trk=people-guest_people_search-card"
+            >go-to-linkedin</a
+          >
+        </div>
+        <div class="right">
+          <a
+            class="insta"
+            href="https://instagram.com/111_harry_style?igshid=1m68iw0bipjg0"
+            >go-to-insta</a
+          >
+        </div>
+      </div>
+
+      <div class="gradient-white">
+        <a
+          class="top"
+          id="Top"
+          href="#top"
+          onclick="smoothScroll(document.getElementById('header'))"
+          title="Go to top"
+          >back-to-top</a
+        >
+      </div>
+    </footer>
+    <script type="text/javascript" src="port.js"></script>
+  </body>
+</html>

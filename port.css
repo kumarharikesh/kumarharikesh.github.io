@@ -346,11 +346,10 @@ footer .row .right a:hover {
 }
 
 .slide-container {
-background-color: rgb(178, 209, 199);
-margin-left: 220px;
-width: 600px;
+background: linear-gradient(to right,#fff,#fff, #ffafbd,#fff, #fff);
 height: 50px;
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
 align-items: center;

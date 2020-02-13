@@ -414,8 +414,8 @@ footer .row .right a:hover {
   -ms-transform: rotate(30deg);               /* IE 9 */
   transform: rotate(20deg);                  /* Standard syntax */   
   /* padding: 10px; */
-  top: 30%;
-  right: 35%;
+  top: 40%;
+  right: 40%;
   width: 420px;
   position: absolute;
   font-family: cursive;

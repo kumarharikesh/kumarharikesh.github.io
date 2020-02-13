@@ -411,9 +411,11 @@ footer .row .right a:hover {
 } */
 
 .tagline {
+  -ms-transform: rotate(30deg);               /* IE 9 */
+  transform: rotate(20deg);                  /* Standard syntax */   
   /* padding: 10px; */
   top: 30%;
-  right: 40%;
+  right: 35%;
   width: 420px;
   position: absolute;
   font-family: cursive;

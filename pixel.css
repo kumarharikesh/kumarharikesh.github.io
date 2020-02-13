@@ -664,6 +664,7 @@ footer .row .right a:hover {
 /* ! Hover Over */
 .content {
   float: right;
+  margin-left: 50px;
   margin-bottom: 80px;
 }
 .button {

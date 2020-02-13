@@ -110,7 +110,7 @@ header li.hackerrank a {
 }
 @media (max-width: 890px) {
     header li.facebook a {
-      right: 2%;
+      right: 1%;
     }
   }
 header li.facebook a {
@@ -126,7 +126,7 @@ header li.facebook a {
 }
 @media (max-width: 890px) {
     header li.facebook a {
-      right: 13%;
+      right: 12%;
     }
   }
 header li.linkedin a {
@@ -142,7 +142,7 @@ header li.linkedin a {
 }
 @media (max-width: 890px) {
     header li.linkedin a {
-      right: 24%;
+      right: 23%;
     }
   }
 header li.twitter a {
@@ -158,7 +158,7 @@ header li.twitter a {
 }
 @media (max-width: 890px) {
     header li.twitter a {
-      right: 35%;
+      right: 34%;
     }
 }
 
@@ -175,7 +175,7 @@ header li.git a {
 }
 @media (max-width: 890px) {
   header li.git a {
-    right: 46%;
+    right: 45%;
   }
 }
 

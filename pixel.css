@@ -70,11 +70,11 @@ header nav li a {
   font-family: cursive;
   /* font-family: 'Courier New', Courier, monospace; */
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     #logo {
      margin-left: 6px;
     }
-  }
+  } */
 #logodiv {
   background-color: rgb(29, 41, 41);
   cursor: pointer;

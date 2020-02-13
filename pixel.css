@@ -103,6 +103,11 @@ header li.hackerrank a {
   top: 31px;
   text-indent: -9999px;
 }
+@media (max-width: 890px) {
+    header li.facebook a {
+      right: 2%;
+    }
+  }
 header li.facebook a {
   background: transparent url(img1/social.png) 3px -186px;
   /* border: 1px solid white; */
@@ -116,7 +121,7 @@ header li.facebook a {
 }
 @media (max-width: 890px) {
     header li.facebook a {
-      right: 16%;
+      right: 13%;
     }
   }
 header li.linkedin a {
@@ -132,7 +137,7 @@ header li.linkedin a {
 }
 @media (max-width: 890px) {
     header li.linkedin a {
-      right: 27%;
+      right: 24%;
     }
   }
 header li.twitter a {
@@ -148,7 +153,7 @@ header li.twitter a {
 }
 @media (max-width: 890px) {
     header li.twitter a {
-      right: 38%;
+      right: 35%;
     }
 }
 
@@ -165,7 +170,7 @@ header li.git a {
 }
 @media (max-width: 890px) {
   header li.git a {
-    right: 49%;
+    right: 46%;
   }
 }
 

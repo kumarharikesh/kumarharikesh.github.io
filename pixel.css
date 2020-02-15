@@ -426,6 +426,7 @@ footer .row .right a:hover {
   .tagline {
     top: 70%;
     left: 3%;
+    border-radius: 0% 30% 0% 25%;
   }
 }
 @media ( min-width: 1100px){

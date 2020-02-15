@@ -509,8 +509,9 @@ footer .row .right a:hover {
   position: absolute;
   /* left: 45%; */
   top: 110px;
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: 800;
+  font-family: fantasy;
   color: #dd3e54;
 }
 @media (max-width: 1000px) {

@@ -411,11 +411,9 @@ footer .row .right a:hover {
 } */
 
 .tagline {
-  -ms-transform: rotate(55deg);               /* IE 9 */
-  transform: rotate(20deg);                  /* Standard syntax */   
   /* padding: 10px; */
-  top: 40%;
-  right: 40%;
+  top: 30%;
+  right: 20%;
   width: 420px;
   position: absolute;
   font-family: cursive;
@@ -426,9 +424,16 @@ footer .row .right a:hover {
 }
 @media (max-width: 1000px) {
   .tagline {
-    /* text-align: left !important; */
     top: 70%;
     left: 3%;
+  }
+}
+@media ( min-width: 1100px){
+  .tagline{
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg); 
+    top: 40%;
+    right: 40%;
   }
 }
 

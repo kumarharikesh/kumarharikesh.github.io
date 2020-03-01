@@ -29,3 +29,25 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
   };
+// Side-Panel
+const model = document.querySelector(".model-section");
+const panel = document.getElementById("sidepanel");
+
+function openNav() {
+  model.style.display = "block";
+  panel.style.width = "200px";
+}
+
+function closeNav() {
+  
+  panel.style.width = "0";
+  model.style.display = "none";
+}
+
+model.addEventListener("click", function(e) {
+  let className = e.target.getAttribute("class");
+  if (className === "model-section") {
+    model.style.display = "none";
+    panel.style.width = "0";
+  }
+});

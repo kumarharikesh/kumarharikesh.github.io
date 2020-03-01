@@ -526,7 +526,7 @@ div.panel-content li:hover .nav-marker{
   /* padding: 10px; */
   top: 30%;
   right: 20%;
-  width: 420px;
+  max-width: 420px;
   position: absolute;
   font-family: cursive;
   border-radius: 20% 0% 0% 20%;
@@ -547,7 +547,7 @@ div.panel-content li:hover .nav-marker{
   /* padding: 10px; */
   top: 70%;
   right: 5%;
-  width: 450px;
+  max-width: 450px;
   position: absolute;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background: linear-gradient(to right, #fff, #aeeea8, #fff);

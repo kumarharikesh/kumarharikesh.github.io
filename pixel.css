@@ -556,7 +556,7 @@ div.panel-content li:hover .nav-marker{
 @media (max-width: 1000px) {
   .tagline {
     top: 70%;
-    left: 3%;
+    left: 0%;
     right: 0%;
     border-radius: 0% 30% 0% 25%;
   }

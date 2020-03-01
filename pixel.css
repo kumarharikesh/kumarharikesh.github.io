@@ -566,20 +566,9 @@ div.panel-content li:hover .nav-marker{
     flex-wrap: wrap;
     justify-content: center;
   }
-  #container {
-      width: 400px;
-      height: 400px;
-  }
-  #container .circle {
-      width: 150px;
-      height: 150px;
-  }
-  .item {
-      top: 55px;
-  }
 }
 
-/* ! Zoom it out -1 ******************* */
+                                           /* ! Zoom it out -1 ******************* */
 
 #container {
   width: 600px;
@@ -611,7 +600,6 @@ div.panel-content li:hover .nav-marker{
     opacity: 0;
   }
 }
-
 .item {
   z-index: 100;
   position: absolute;
@@ -625,8 +613,21 @@ div.panel-content li:hover .nav-marker{
 .item:hover {
   color: #921828;
 }
+@media (max-width: 1000px) {
+  #container {
+    width: 400px;
+    height: 400px;
+  }
+  #container .circle {
+    width: 150px;
+    height: 150px;
+  }
+  .item {
+    top: 55px;
+  }
+}
 
-/* ! zoom in out -2 */
+                                             /* ! zoom in out -2 */
 
 .Zoom_in_out {
   /* .feature img {

@@ -615,7 +615,7 @@ div.panel-content li:hover .nav-marker{
 }
 @media (max-width: 1000px) {
   #container {
-    width: 400px;
+    width: 350px;
     height: 400px;
   }
   #container .circle {

@@ -558,6 +558,7 @@ div.panel-content li:hover .nav-marker{
     top: 70%;
     left: 0%;
     right: 0%;
+    padding-left: 10px;
     border-radius: 0% 30% 0% 25%;
   }
   .about {

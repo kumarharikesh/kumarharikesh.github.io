@@ -605,7 +605,7 @@ div.panel-content li:hover .nav-marker{
 .item {
   z-index: 100;
   position: absolute;
-  top: 90px;
+  top: 75px;
 /*   left: 45%; */
 /*   font-size: 2.8rem; */
 /*   font-weight: 800; */

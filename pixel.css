@@ -779,7 +779,6 @@ div.panel-content li:hover .nav-marker{
   float: right;
   padding: 40px;
   margin-bottom: 80px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.658), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .button {
   background-color: #3c4245;
@@ -789,6 +788,7 @@ div.panel-content li:hover .nav-marker{
   border: 2px solid #3c4245;
   border-radius: 4px;
   box-sizing: border-box;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.658), 0 6px 20px 0 rgba(0,0,0,0.19);
   vertical-align: middle;
   text-align: center;
   white-space: nowrap;

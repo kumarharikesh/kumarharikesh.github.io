@@ -782,7 +782,7 @@ div.panel-content li:hover .nav-marker{
 }
 .button {
   background-color: #3c4245;
-  color: #fff;
+  color: rgb(253, 226, 138);
   display: inline-block;
 /*   margin: 20px 240px; */
   border: 2px solid #3c4245;
@@ -809,9 +809,9 @@ div.panel-content li:hover .nav-marker{
 }
 
 .button:hover {
-  background-color: #fff;
-  border-color: #3c4245;
-  color: #3c4245;
+  background-color: lightgray;
+  border-color: rgb(255, 166, 0);
+  color: rgb(224, 120, 0);
 }
 #h1{
     margin: 40px;

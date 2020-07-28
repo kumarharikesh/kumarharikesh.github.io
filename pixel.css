@@ -810,7 +810,7 @@ div.panel-content li:hover .nav-marker{
 }
 
 .button:hover {
-  background-color: lightgray;
+  background-color: aquamarine;
   border-color: rgb(255, 166, 0);
   color: rgb(224, 120, 0);
 }

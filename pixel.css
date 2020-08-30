@@ -134,8 +134,8 @@ header li.git a {
     header nav ul .page-item{
        display: none;
     }
-    header li.facebook a {
-      right: 0%;
+    header li.hackerrank a {
+      right: 5%;
     }
     header li.facebook a {
       right: 11%;
@@ -156,7 +156,7 @@ header nav {
 }
 @media (max-width: 1010px) {
   header nav {
-    margin-left: 100px;
+    margin-left: 120px;
   }
 }
 header ul li a:hover {

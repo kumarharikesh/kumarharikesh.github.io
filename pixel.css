@@ -152,11 +152,11 @@ header li.git a {
 }
 
 header nav {
-  margin-left: 200px;
+  margin-left: 20%;
 }
 @media (max-width: 1010px) {
   header nav {
-    margin-left: 130px;
+    margin-left: 140px;
   }
 }
 header ul li a:hover {

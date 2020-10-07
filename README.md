@@ -6,7 +6,7 @@ A website to run Amazon Linux AMI.
 ## Screenshot2
 [![Screenshot2](https://github.com/kumarharikesh/Hello-World/blob/master/AmazonLinuxAMIsnapshot0.jpg "Screenshot2")](#)
 <p align="center">
-  <img src="https://github.com/kumarharikesh/Hello-World/blob/master/AmazonLinuxAMIsnapshot0.jpg" title="hover text">
+  <img src="https://github.com/kumarharikesh/Hello-World/blob/master/AmazonLinuxAMIsnapshot0.jpg" title="hover text">img</img>
 </p>
 ---
 Check it out.

@@ -61,7 +61,7 @@ function new_Window() {
   if (this.innerHTML === "Launch Terminal →") {
     window.open(
       "https://lightsail.aws.amazon.com/ls/remote/ap-south-1/instances/harry_instance/terminal?protocol=ssh",
-      "_blank",
+      "Harry_Instance_Window",
       "toolbar=0,location=0,menubar=0",
       "height=750,width=1000,top=30,left=30"
     ).focus();

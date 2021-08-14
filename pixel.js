@@ -60,7 +60,7 @@ function new_Window() {
 //   }
   if (this.innerHTML === "Launch Terminal →") {
     window.open(
-      "https://lightsail.aws.amazon.com/ls/remote/ap-south-1/instances/Harry_Amazon_Linux-1/terminal?protocol=ssh",
+      "https://lightsail.aws.amazon.com/ls/remote/ap-south-1/instances/harry_instance/terminal?protocol=ssh",
       "_blank",
       "height=750,width=1000,top=30,left=30"
     );

@@ -63,7 +63,7 @@ function new_Window() {
       "https://lightsail.aws.amazon.com/ls/remote/ap-south-1/instances/harry_instance/terminal?protocol=ssh",
       "Harry_Instance_Window",
       "location=0",
-      "height=750,width=1000,top=30,left=30"
+      "height=700,width=1000,top=50,left=50"
     ).focus();
   }
 //   if (this.innerHTML === "Calculator") {
